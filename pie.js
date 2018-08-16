@@ -34,7 +34,7 @@ function createPie(dataElement, pieElement) {
   }
   var offset = 0;
   var color = [
-    "cornflowerblue", 
+    "blue", 
     "olivedrab", 
     "orange", 
     "tomato", 

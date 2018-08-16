@@ -184,7 +184,7 @@ async function loadModel()
 //allow drawing on canvas 	  
 function allowDrawing(){
     canvas.isDrawingMode= 1;
-    document.getElementById('status').innerHTML ='Model Loaded';
+    document.getElementById('status').innerHTML ='Model Ready';
     $('button').prop('disabled', false); 
     var slider = document.getElementById('myRange');
     slider.oninput = function(){canvas.freeDrawingBrush.width = this.value;};
